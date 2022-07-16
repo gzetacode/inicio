@@ -70,42 +70,54 @@ def suma(num):
 
 ![star trek logo](https://elcadillacnegro.files.wordpress.com/2013/07/star-trek-logo.jpg)
 
+## imagen local
+
+![star trek](star-trek-logo.jpeg)
+
+
 
 ### --vamos a la carpeta del ***proyecto***
-git init
+`git init`
 
-git status -s
---muestra los archivos y directorios que esta controlando
---si tiene ?? en rojo significa que git no esta haciendo seguimiento
+`git status -s`
 
-git add git-comand.txt
---ahora aparece una A por que se agrego 
+## --muestra los archivos y directorios que esta controlando
+## --si tiene ?? en rojo significa que git no esta haciendo seguimiento
 
-git commit -m "primer paso"
---si es la primera vez me va pedir primero:
+`git add git-comand.txt`
+
+## --ahora aparece una A por que se agrego 
+
+`git commit -m "primer paso"`
+
+## --si es la primera vez me va pedir primero:
+```
 git config --global user.name "gzeta"
 git config --global user.email "gazetaimpresiones@gmail.com"
---y luego si:
-git commit -m "primer paso"
+```
+## --y luego si:
+`git commit -m "primer paso"`
 
---despues de modificar el archivo y cuando querramos hacer instantanea:
+## --despues de modificar el archivo y cuando querramos hacer instantanea:
+```
 git add git-comand.txt
 git commit -m "segundo paso"
+```
 
---listado de las copias y descripcion
-git log --oneline
+## --listado de las copias y descripcion
+`git log --oneline`
 
---para restaura archivo a otra instantanea
-git reset --hard d93d741
+## --para restaura archivo a otra instantanea
+`git reset --hard d93d741`
 
---para agregar todos los archivos de la carpeta:
-git add .
+## --para agregar todos los archivos de la carpeta:
+`git add .`
 
---si quiero agregar y hacer commit a la vez:
-git commit -am "tercer paso"
+## --si quiero agregar y hacer commit a la vez:
+`git commit -am "tercer paso"`
 
---si queremos modificar un comentario (habrimos editor VIM)
-git commit --amend
+## --si queremos modificar un comentario (habrimos editor VIM)
+`git commit --amend`
 
---para subir a github
-git push -u origin master
+## --para subir a github
+`git push -u origin master`
