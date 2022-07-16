@@ -32,7 +32,38 @@
 2. *naranja*
 3. *pera*
 
+<!-- enlaces-->
+## Enlaces
+[infobae](http://infobae.com)
 
+[infobae](http://infobae.com "esto muestra cuando poso el raton")
+
+<!-- citas-->
+## Citas
+> esto es una cita
+
+---
+___
+
+<!-- pegar codigo-->
+## pegar codigo
+
+### en lineas
+
+`python
+ resultado+=int(num)
+`
+
+### en bloques
+
+```python
+def suma(num):
+    global operacion #aca le digo que tenga en cuenta que voy a operar con la variable global operacion
+    global resultado
+    resultado+=int(num) #esto es igual resultado=resultado+int(num)
+    operacion="suma"
+    numeropantalla.set(resultado)
+```
 
 
 ### --vamos a la carpeta del ***proyecto***
