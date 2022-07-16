@@ -65,6 +65,11 @@ def suma(num):
     numeropantalla.set(resultado)
 ```
 
+<!-- linkear una imagen-->
+##linkear una imagen
+
+![star trek logo](https://elcadillacnegro.files.wordpress.com/2013/07/star-trek-logo.jpg)
+
 
 ### --vamos a la carpeta del ***proyecto***
 git init
