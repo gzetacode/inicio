@@ -33,3 +33,6 @@ git commit -am "tercer paso"
 
 --si queremos modificar un comentario (habrimos editor VIM)
 git commit --amend
+
+--para subir a github
+git push -u origin master
